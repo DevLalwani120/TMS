@@ -1,0 +1,73 @@
+.deliveryForm{
+    padding: 0px ;
+}
+
+.deliverycontainer{
+  
+    margin: 0 auto;
+
+    border-radius: 5px;
+}
+.header{
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+}
+.deliveryheading{
+ margin-bottom: 10px;
+ text-align: center;
+ font-weight: 400;
+ font-weight: 400;
+ color: black;
+ font-size: 25px;
+
+}
+.deliveryaddress{
+    padding: 10px;
+    width: 628px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 0.5px solid ;
+}
+.deliverylabel{
+    font-size: 20px;
+font-weight: 400;
+color: black;
+}
+.deliveryrow2{
+    display: flex; 
+    justify-content: space-between;
+     margin-Bottom: 15px ;
+}
+.deliverycol1{
+    flex: 1;
+     margin-Right: 10px; 
+}
+.deliverycol2{
+    flex: 1; 
+    margin-Left: 10px; 
+}
+.deliverycol2label{
+
+    font-size: 20px;
+    display: block; 
+    font-weight: 400;
+    margin-Bottom: 5px;
+    color: black;
+}
+.deliverycol2input{
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+     padding: 10px;
+    box-Sizing: border-box;
+    border: 0.5px solid;
+}
+.additionalinfosavebtn{
+    width: 25%;
+    border-radius: 5px;
+padding: 5px;
+    background-color:#1e0d4f ;
+    color: white;
+    
+}

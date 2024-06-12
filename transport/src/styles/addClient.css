@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.addclientcontainer{
+    max-width: 1200px;
+    min-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.para-heading{
+    height: 30px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+}
+.addclientform {
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+        font-family: Arial, sans-serif;
+}
+
+
+.row1, .row2, .row3, .row4 ,.row5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.row1 label, .row2 label, .row3 label, .row4 label,.row5 label {
+    width: 150px;
+}
+.row6{
+    display: flex;
+    justify-content: space-between;
+}
+.addClientInput
+ {
+    width: 310px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.addClientInput:focus{
+    border-color: #007bff;
+    outline: none;
+}
+
+.addclientbutton{
+    width: 210px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addclientbutton:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1120px) and (min-width: 792px) {
+    .addclientform {
+        max-width: 250px;
+        min-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+            font-family: Arial, sans-serif;
+    }
+}
+.red{
+    color: red;
+    margin: 0px;
+}
+
+  

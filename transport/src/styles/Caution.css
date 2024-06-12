@@ -1,0 +1,15 @@
+.cautionheading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+.cautioncontent{
+line-height: 30px;
+text-align: justify;
+
+}   
+.cautiondata{
+    width: 630px;
+    font-weight: 400 !important;
+}

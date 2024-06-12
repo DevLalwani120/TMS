@@ -1,0 +1,15 @@
+.noticeheading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+
+}
+.noticecontent{
+line-height: 40px;
+text-align: justify;
+}   
+.noticedata{
+    width: 630px;
+    font-weight: 400 !important;
+}

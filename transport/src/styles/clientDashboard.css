@@ -1,0 +1,111 @@
+.client-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e0d4f;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px){
+  .top-navbar {
+   box-sizing: border-box;
+    width: 122% !important;
+  }
+}
+
+@media  (max-width:768px){
+  .top-navbar {
+   box-sizing: border-box;
+    width: 160% !important;
+  }
+}
+
+.search-bar input {
+  padding: 5px;
+}
+
+.logout-button {
+  padding: 5px 10px;
+  background-color: #1e0d4f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.vertical-navbar {
+  width: 200px;
+  background-color: #1e0d4f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-navbar li {
+  padding: 10px;
+}
+
+.vertical-navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.vertical-navbar li a:hover {
+  background-color: #555;
+}
+
+.content-area {
+  flex: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.profile-menu {
+  position: relative;
+}
+
+.profile-btn {
+  padding: 5px 10px;
+  background-color: #1e0d4f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #1e0d4f;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+}

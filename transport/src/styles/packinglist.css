@@ -1,0 +1,26 @@
+.packinglist-head{
+    text-align: center;
+}
+.markano{
+    width: 70px;
+}
+.packinglist-header{
+    margin: 5px;
+}
+.packingvalue{
+    width: 100px;
+    
+}
+.packingparticular{
+    width: 200px;
+}
+.packing-table-header{
+    font-weight: 400;
+    border-left: 0.5px solid !important;
+    border-right: 0.5px solid !important;
+}
+.packing-table-td{
+    font-weight: 400;
+    border-left: 0.5px solid !important;
+    border-right: 0.5px solid !important;
+}

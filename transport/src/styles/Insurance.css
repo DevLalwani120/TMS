@@ -1,0 +1,64 @@
+.insurancedetails{
+    padding: 0px;
+}
+ .companylabel{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+ }
+ .insuranceheading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+ }
+ .companyinput{
+    font-size: 20px;
+    padding: 8px;
+    width: 727px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+ }
+ .insurancerow2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .insurancerow1{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .insurancecol1,.insurancecol3{
+    flex: 1;
+     margin-Right: 10px; 
+}
+.insurancecol2,.insurancecol4{
+    flex: 1; 
+    margin-Left: 10px; 
+}
+.insurancelabel{
+
+    font-size: 20px;
+    display: block; 
+    margin-Bottom: 5px;
+    font-weight: 400;
+    color: black;
+}
+.insuranceinput{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    box-Sizing: border-box;
+    border: 0.5px solid;
+}
+.additionalinfosavebtn{
+  width: 25%;
+  border-radius: 5px;
+padding: 5px;
+  background-color:#1e0d4f ;
+  color: white;
+  
+}

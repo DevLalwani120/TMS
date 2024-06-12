@@ -1,0 +1,334 @@
+.invoice-row-0{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.invoice-row-1{
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid black;
+    margin: 10px 0px;
+}
+
+.invoice-heading{
+    margin: 0px;
+}
+.invoice-row-2{
+    border: 1px solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.row-2-middle{
+    border-left: 0.5px solid;
+    width: 500px;
+    padding: 5px;
+}
+.row-2-right{
+    border-left: 0.5px solid;
+}
+.consignorinput {
+    width: 248px;
+    margin: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    padding: 4px;
+}
+
+.consignorheader{
+    margin: 3px;
+    font-weight: 400;
+    color: black;
+
+}
+.paymentstatusheader{
+        margin: 3px;    
+        border-bottom: 0.5px solid;
+        padding: 6px 0px;
+}
+.payer{
+        margin: 3px;
+        padding: 6px 0px;
+}
+.paymentstatusamount{
+    margin: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.paymentstatus{
+    border-bottom: 0.5px solid;
+}
+.hyphen{
+    position: relative;
+}
+.col1, .col2,.consignorcol2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.consignoraddress{
+    width: 530px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.row-2-left{
+    width: 500px;
+    padding: 5px;
+    /* border-right: 0.5px solid; */
+}
+.partyname{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 0.5px solid;
+    padding: 6px;
+    width: 530px;
+}
+.invoice-input-row1 {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    box-sizing: border-box;
+}
+.invoice-label-row1{
+    font-weight: 400;
+    color: black;
+}
+label{
+    font-weight: 400;
+    color: black;   
+    margin: 5px;
+}
+.liable{
+    display: flex;
+    justify-content: space-between;
+
+}
+.invoice-row-3 {
+    width: 100%;
+    overflow-x: auto;
+    border: 0.5px solid black;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.billitytable {
+    width: 100%;
+    border-collapse: collapse;
+margin-bottom: 15px ;
+}
+.bilitytable2{
+    width: 100%;
+    border-collapse: collapse;
+margin-bottom: 15px ;
+}
+
+.billityth, .bilitytd {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.bilityinput{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.driverdetails{
+    width: 28% ;
+}
+.invoice-row-5{ 
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid ;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+.Bank-details{
+    width:650px
+}
+.action {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 3px;
+}
+.gstpay{
+    width: 150px;
+    padding: 5px;
+}
+.gstrate{
+    width: 150px;
+    padding: 5px;
+}
+.bilityinput-sno{
+    width: 68px;
+}
+.bilityinput-package{
+width: 300px
+}
+.bilityinput-description{
+width: 434px;
+}
+.billityth{
+    color: white;
+    background-color: #9c9c9c ;
+  
+}
+.partymanual{
+    width: 530px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.crossSvg{
+    position: relative;
+    right: 21px;
+}
+.Otherdiv{
+    display: flex;
+    align-items: center;
+    width: 112%;
+}
+@media (max-width: 1412px) and (min-width: 792px) {
+    .invoice-row-0 {
+        display: block;
+    }
+    .partyname,.consignoraddress{
+        width:98%
+    }
+    .invoice-row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    }
+    .mediainput{
+        width: 90% !important;
+    }
+    .col1, .col2, .consignorcol2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width: 1440px) {
+    .partymanual {
+        width: 479px;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    .invoice-row-0 {
+        display: flex;
+    }
+    .invoice-input-row1{
+        width: 77%;
+    }
+    .partyname,.consignoraddress{
+        width:98%
+    }
+    .invoice-row-1{
+   width: 99%;
+    justify-content: space-between;
+    }
+    .col1, .col2, .consignorcol2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mediainput{
+        width: 89% !important;
+    }
+
+}
+@media (max-width: 1024px) {
+  
+    .invoice-input-row1{
+        width: 77%;
+    }
+    .partyname,.consignoraddress{
+        width:98%
+    }
+    .invoice-row-1{
+   width: 99%;
+    justify-content: space-between;
+    display: flex;
+    }
+    .col1, .col2, .consignorcol2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mediainput{
+        width: 89% !important;
+    }
+
+}
+
+.savebuttonbilty{
+    width: 210px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.savebuttonbilty:hover {
+    background-color: #0056b3;
+}
+.savebuttonbilty:disabled{
+    background-color: grey;
+    cursor: no-drop;
+}
+
+
+.invoice-row-4{
+    border: 0.5px solid;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.freightwdth{
+    width: 11%;
+
+}
+.biltywdth{
+    width: 8%;
+}
+
+  .invoice-input-row1 { 
+    width: 150px;
+  }
+  .current-date {
+    text-align: center;
+    background-color: #d3f0d7;
+  }
+  
+  .previous-date {
+    text-align: center;
+    background-color: #f5dcde;
+  }
+  .previous{
+    position: relative;
+    left: 38px;
+    background: none;
+    border: none;
+  }
+.current{
+    position: relative;
+    right: 37px;
+    border: none;
+    background: none;
+}
+  

@@ -1,0 +1,180 @@
+/* adminLogin.css */
+
+/* Overall container for the login page */
+.main{
+  min-width: 368px;
+}
+.Admin {
+  /* min-width: 428px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.login-form{
+  min-width: 328px;
+  max-width: 250px;
+  padding: 20px;
+}
+/* Container for the login form */
+.login-container {
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* width: 100%; */
+  max-width: 450px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Header for the login form */
+.login-header {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+/* Container for each input field */
+.input-container {
+  margin-bottom: 1.5rem;
+}
+
+/* Labels for the input fields */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Style for input fields */
+.login-input {
+  width: 100% !important;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 1rem;
+  background-color: #f8f9fa;
+}
+
+/* Input focus state */
+.login-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  background-color: #ffffff;
+}
+
+/* Container for the password input field and toggle button */
+.password-container {
+  position: relative;
+}
+
+/* Style for the toggle password button */
+.toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 295px;
+  bottom: 2px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #333333;
+
+}
+
+.toggle-password:focus {
+  outline: none;
+}
+
+/* Style for error messages */
+.error {
+  color: #ff4d4f;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Style for the submit button */
+.loginbutton {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 1rem;
+}
+
+/* Hover state for the submit button */
+.loginbuttonx.Admin {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Styles for the tab navigation */
+.tab-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-navigation button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  color: #333333;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover state for tab buttons */
+.tab-navigation button:hover {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+/* Active state for tab buttons */
+.tab-navigation button.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.login-button{
+  display: flex;
+  justify-content: space-around;
+}
+/* Responsive styles */
+/* @media (max-width: 768px) {
+  .login-container {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .tab-navigation button {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+
+  button[type="submit"] {
+    padding: 0.5rem;
+  }
+} */

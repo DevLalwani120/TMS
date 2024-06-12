@@ -1,0 +1,41 @@
+.namelabel,.agentaddresslabel{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+ }
+ .agentheading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+ }
+ .agentdetails{
+    padding: 0px;
+}
+ .agentaddressinput,.nameinput{
+    font-size: 20px;
+    padding: 8px;
+    width: 630px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+ }
+ .additionalinfosavebtn{
+   width: 25%;
+   border-radius: 5px;
+padding: 5px;
+   background-color:#1e0d4f ;
+   color: white;
+   cursor: pointer;
+   
+}
+
+.additionalinfosavebtn:hover{
+   width: 25%;
+   border-radius: 5px;
+padding: 5px;
+   background-color:#1e0d4f ;
+   color: white;
+   cursor: pointer;
+   
+}

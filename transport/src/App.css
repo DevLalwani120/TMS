@@ -1,0 +1,86 @@
+.invoice-box {
+  max-width: 1000px;
+  min-width: 654px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.invoice-box table {
+  width: 100%;
+  line-height: 24px;
+  text-align: left;
+  border-collapse: collapse;
+}
+.invoice-box table td {
+  padding: 8px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  font-size: 12px;
+}
+.invoice-box table th {
+  padding: 8px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+.invoice-box table tr td:nth-child(2) {
+  text-align: left;
+}
+.title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #333;
+  text-align: center;
+}
+.title p{
+  margin: 0px;
+  font-size: 20px;
+  
+}
+.information table {
+  padding-bottom: 40px;
+}
+.heading {
+  background: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+.para-heading{
+  background: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.details {
+  padding-bottom: 20px;
+}
+.item {
+  border-bottom: 1px solid #f2f2f2;
+}
+.item.last {
+  border-bottom: none;
+}
+.total {
+  border-top: 2px solid #f2f2f2;
+  font-weight: bold;
+}
+.signature {
+  margin-top: 40px;
+}
+.preformatted {
+  font-family: monospace;
+  font-size: 12px;
+}
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}
